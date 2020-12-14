@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<StackLayout x:Class="MarkerGoogleMaps.BindingPinView"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             AnchorX="0.5"
+             AnchorY="1.0"
+             BackgroundColor="Transparent"
+             HeightRequest="101"
+             WidthRequest="64">
+    <AbsoluteLayout HorizontalOptions="Start" VerticalOptions="End">
+
+        <Image AbsoluteLayout.LayoutBounds="10, 60, 40, 40"
+               AbsoluteLayout.LayoutFlags="None"
+               Source="location.png" />
+        <Frame Margin="0,0,0,0"
+               Padding="5"
+               AbsoluteLayout.LayoutBounds="2, 0, 60, 60"
+               AbsoluteLayout.LayoutFlags="None"
+               BackgroundColor="Black"
+               CornerRadius="30"
+               HasShadow="False"
+               HeightRequest="60"
+               WidthRequest="60">
+            <StackLayout>
+                <Image x:Name="img"
+                       Aspect="AspectFill"
+                       HeightRequest="50"
+                       WidthRequest="50">
+                    <Image.Clip>
+                        <EllipseGeometry Center="25,25"
+                                         RadiusX="25"
+                                         RadiusY="25" />
+                    </Image.Clip>
+                </Image>
+            </StackLayout>
+        </Frame>
+    </AbsoluteLayout>
+</StackLayout>
