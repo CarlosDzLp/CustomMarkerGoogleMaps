@@ -1,21 +1,14 @@
-﻿<Properties StartupConfiguration="{63473D3F-0916-4ED6-9328-A943A9A69D96}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties StartupConfiguration="{DE7134FE-B194-4A24-A7E0-F4ACC83AF673}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.MarkerGoogleMaps.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.077E2697-49B0-4E2A-8677-7A8F389B5932" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MarkerGoogleMaps/MainPage.xaml.cs">
-    <Files>
-      <File FileName="MarkerGoogleMaps/BindingPinView.xaml" Line="7" Column="43" />
-      <File FileName="MarkerGoogleMaps/MainPage.xaml.cs" Line="71" Column="19" />
-      <File FileName="MarkerGoogleMaps/MainPage.xaml" Line="17" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MarkerGoogleMaps" expanded="True">
             <Node name="MarkerGoogleMaps" expanded="True">
-              <Node name="BindingPinView.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" selected="True" />
             </Node>
+            <Node name="MarkerGoogleMaps.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -27,5 +20,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MarkerGoogleMaps.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.A4N4C19B25003791" />
+  <MonoDevelop.Ide.ItemProperties.MarkerGoogleMaps.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.R58M71K1VLF" />
 </Properties>

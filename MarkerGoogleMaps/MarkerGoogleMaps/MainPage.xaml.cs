@@ -74,7 +74,7 @@ namespace MarkerGoogleMaps
                 map.Pins.Add(pin3);
                 map.Pins.Add(pin4);
                 map.Pins.Add(pin5);
-                map.MoveToRegion(MapSpan.FromCenterAndRadius(pin1.Position, Distance.FromMeters(5000)), true);
+                map.MoveToRegion(MapSpan.FromCenterAndRadius(pin1.Position, Distance.FromMeters(1000)), true);
             }
             catch(Exception ex)
             {
